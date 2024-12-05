@@ -1,0 +1,131 @@
+
+@import url('https://fonts.cdnfonts.com/css/sensa-brush');
+@import url('https://fonts.cdnfonts.com/css/sensa-brush');
+@import url('https://fonts.cdnfonts.com/css/lemon-jelly-personal-use');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-image: url("../aacert/bg.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: black;
+
+}
+
+.topnav {
+    background-color: #33333300;
+    overflow: hidden;
+    /* border-bottom: 1px solid white; */
+}
+
+#b{
+    font-size: 20px;
+    color: goldenrod;
+    font-weight: bold;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    background-color: #05111d;
+    color: rgb(255, 255, 255);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #07213b;
+    color: white;
+
+
+}
+.text{
+    height: 600px;
+    width: 800px;
+    /* border: 1px solid white; */
+    margin-top: 150px;
+    margin-left: 80px;
+    padding: 20px 24px;
+}
+.text h1{
+    color: #dadada;
+    text-transform:uppercase;
+    font-size:87px;
+    font-family: 'Sensa Brush', sans-serif;
+}
+span{
+    color: goldenrod;
+    font-size:87px;
+    font-family: 'Sensa Brush', sans-serif;
+}
+    
+button{
+    height: 40px;
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 17px;
+    color:#fff;
+    background-color: rgb(34, 55, 117);
+    background-color: rgb(34, 55, 117);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    
+}
+button:hover{
+    background-color: rgb(18, 29, 63);
+    padding-left: 6px;
+
+}
+.sec{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    background: url("../aacert/bg2.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    margin-top: 130px;
+}
+.sec2{
+    height: 600px;
+    width: 800px;
+    /* border: 1px solid white; */
+    margin-right: 500px;
+    margin-top: 180px;
+    position: absolute;
+    padding: 20px 24px;
+    right: -380px;
+}
+.sec2 h1{
+    color: #dadada;
+    text-transform:uppercase;
+    font-size:87px;
+    font-family: 'Sensa Brush', sans-serif;
+}
+.sec2 h1 span{
+    color: rgb(17, 17, 129);
+    font-size:87px;
+    font-family: 'Sensa Brush', sans-serif;
+}
